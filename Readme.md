@@ -23,12 +23,22 @@ git remote -v
 git add .
 ```
 
-* Paso 3: Hacer commit
+* Paso 4: Hacer commit
 
 ```shell
 git commit -m <Mensaje>
 ```
 
-git remote add origin <URLgithub> //  git remote(ver que tenemos) // git remote -v
-CREAMOS NUEVO REPOSITORIO EN GITHUB
+* Paso 5: Registramos en nuestra base de datos
+
+```shell
+git remote add origin <URLgithub>
+```
+
+* Paso 6: CREAMOS NUEVO REPOSITORIO EN GITHUB
+
+* Paso 7: Hacemos un push a GitHub, sincronizamos
+
+```shell
 git push -u origin master
+```
